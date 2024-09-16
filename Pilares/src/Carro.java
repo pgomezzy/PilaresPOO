@@ -1,4 +1,5 @@
-public class Carro {
+public class Carro extends Veiculo{
+
     public void ligar()
     {
         confereCambio();
@@ -13,5 +14,5 @@ public class Carro {
     {
         System.out.println("Conferindo Cambio");
     }
-        
+  
 }
