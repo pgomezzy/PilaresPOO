@@ -1,13 +1,15 @@
 public class Carro {
     public void ligar()
     {
+        confereCambio();
+        confereCombustivel();
         System.out.println("Carro Ligado");
     }
-    public void confereCombustivel()
+    private void confereCombustivel()
     {
         System.out.println("Conferindo Combustivel");
     }
-    public void confereCambio()
+    private void confereCambio()
     {
         System.out.println("Conferindo Cambio");
     }
